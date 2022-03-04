@@ -14,6 +14,9 @@
 		217B022B27D1A88B00991723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217B022A27D1A88B00991723 /* Assets.xcassets */; };
 		217B022E27D1A88B00991723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217B022C27D1A88B00991723 /* LaunchScreen.storyboard */; };
 		217B023127D1A88B00991723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B023027D1A88B00991723 /* main.m */; };
+		217B023C27D1A89200991723 /* SliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B023827D1A89200991723 /* SliderCell.m */; };
+		217B023D27D1A89200991723 /* SliderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B023B27D1A89200991723 /* SliderMenu.m */; };
+		217B024027D1A9C100991723 /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B023F27D1A9C100991723 /* MyCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		217B022D27D1A88B00991723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217B022F27D1A88B00991723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		217B023027D1A88B00991723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217B023827D1A89200991723 /* SliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderCell.m; sourceTree = "<group>"; };
+		217B023927D1A89200991723 /* SliderMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderMenu.h; sourceTree = "<group>"; };
+		217B023A27D1A89200991723 /* SliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderCell.h; sourceTree = "<group>"; };
+		217B023B27D1A89200991723 /* SliderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderMenu.m; sourceTree = "<group>"; };
+		217B023E27D1A9C100991723 /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
+		217B023F27D1A9C100991723 /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +70,15 @@
 		217B021D27D1A88A00991723 /* CellSliderCancle */ = {
 			isa = PBXGroup;
 			children = (
+				217B023727D1A89200991723 /* SparkSliderMenu */,
 				217B021E27D1A88A00991723 /* AppDelegate.h */,
 				217B021F27D1A88A00991723 /* AppDelegate.m */,
 				217B022127D1A88A00991723 /* SceneDelegate.h */,
 				217B022227D1A88A00991723 /* SceneDelegate.m */,
 				217B022427D1A88A00991723 /* ViewController.h */,
 				217B022527D1A88A00991723 /* ViewController.m */,
+				217B023E27D1A9C100991723 /* MyCustomCell.h */,
+				217B023F27D1A9C100991723 /* MyCustomCell.m */,
 				217B022727D1A88A00991723 /* Main.storyboard */,
 				217B022A27D1A88B00991723 /* Assets.xcassets */,
 				217B022C27D1A88B00991723 /* LaunchScreen.storyboard */,
@@ -74,6 +86,17 @@
 				217B023027D1A88B00991723 /* main.m */,
 			);
 			path = CellSliderCancle;
+			sourceTree = "<group>";
+		};
+		217B023727D1A89200991723 /* SparkSliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				217B023A27D1A89200991723 /* SliderCell.h */,
+				217B023827D1A89200991723 /* SliderCell.m */,
+				217B023927D1A89200991723 /* SliderMenu.h */,
+				217B023B27D1A89200991723 /* SliderMenu.m */,
+			);
+			path = SparkSliderMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +171,11 @@
 			files = (
 				217B022627D1A88A00991723 /* ViewController.m in Sources */,
 				217B022027D1A88A00991723 /* AppDelegate.m in Sources */,
+				217B024027D1A9C100991723 /* MyCustomCell.m in Sources */,
 				217B023127D1A88B00991723 /* main.m in Sources */,
+				217B023D27D1A89200991723 /* SliderMenu.m in Sources */,
 				217B022327D1A88A00991723 /* SceneDelegate.m in Sources */,
+				217B023C27D1A89200991723 /* SliderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
